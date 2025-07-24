@@ -15,3 +15,21 @@ document.getElementById('darkModeToggle').addEventListener('change', function ()
     localStorage.setItem('theme', 'light');
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const loginForm = document.querySelector(".login-form");
+
+  loginForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const username = document.getElementById("username").value.trim();
+    const password = document.getElementById("password").value;
+
+    // Simple mock validation (replace with real auth logic later)
+    if (username && password) {
+      alert("Login successful!");
+      window.location.href = "index.html"; // redirect to homepage
+    } else {
+      alert("Invalid credentials!");
+    }
+  });
+});
