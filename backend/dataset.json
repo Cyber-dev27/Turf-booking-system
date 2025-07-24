@@ -1,0 +1,825 @@
+[
+  {
+    "id": 1,
+    "name": "Turf Arena 1",
+    "location": "Andheri",
+    "price": 800,
+    "image": "https://source.unsplash.com/400x300/?football",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Green Kickz",
+    "location": "Bandra",
+    "price": 900,
+    "image": "https://source.unsplash.com/400x300/?soccer",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Turf Side",
+    "location": "Borivali",
+    "price": 750,
+    "image": "https://source.unsplash.com/400x300/?sports",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "PlayZone",
+    "location": "Goregaon",
+    "price": 1000,
+    "image": "https://source.unsplash.com/400x300/?grass-field",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "SoccerHub",
+    "location": "Thane",
+    "price": 850,
+    "image": "https://source.unsplash.com/400x300/?football-ground",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Urban Turf",
+    "location": "Mulund",
+    "price": 950,
+    "image": "https://source.unsplash.com/400x300/?stadium",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "PowerPlay",
+    "location": "Vile Parle",
+    "price": 920,
+    "image": "https://source.unsplash.com/400x300/?futsal",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The Kickoff",
+    "location": "Chembur",
+    "price": 980,
+    "image": "https://source.unsplash.com/400x300/?sports-ground",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Goal Rush",
+    "location": "Dadar",
+    "price": 870,
+    "image": "https://source.unsplash.com/400x300/?soccer-field",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "SkyTurf",
+    "location": "Malad",
+    "price": 1050,
+    "image": "https://source.unsplash.com/400x300/?grass",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ProPlay",
+    "location": "Jogeshwari",
+    "price": 890,
+    "image": "https://source.unsplash.com/400x300/?sport",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "VictoryTurf",
+    "location": "Kandivali",
+    "price": 820,
+    "image": "https://source.unsplash.com/400x300/?football-net",
+    "slots": [
+      {
+        "date": "2025-07-24",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-24",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "06:00 - 07:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "07:00 - 08:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "08:00 - 09:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "18:00 - 19:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "19:00 - 20:00",
+        "is_booked": false
+      },
+      {
+        "date": "2025-07-25",
+        "time": "20:00 - 21:00",
+        "is_booked": false
+      }
+    ]
+  }
+]
