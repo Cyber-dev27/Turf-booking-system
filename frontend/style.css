@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: url('https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.85);
+  z-index: -1;
+}
+header {
+  background: linear-gradient(90deg, #1e7734, #2e8b57);
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.container {
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.turfs {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.turf-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  flex: 1 1 30%;
+  max-width: 30%;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+.turf-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.turf-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+.turf-info {
+  padding: 20px;
+  flex-grow: 1;
+}
+.turf-info h3 {
+  margin-bottom: 10px;
+  color: #1e7734;
+}
+.turf-info p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+.book-btn {
+  background: linear-gradient(90deg, #1e7734, #2e8b57);
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0 0 15px 15px;
+  transition: background 0.3s;
+}
+.book-btn:hover {
+  background: linear-gradient(90deg, #27ae60, #219653);
+}
+.nav-buttons {
+  text-align: center;
+  margin: 30px 0 0;
+}
+.nav-buttons button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  margin: 0 15px;
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.nav-buttons button:hover {
+  background-color: #218c5b;
+  transform: scale(1.05);
+}
+.booking-form {
+  display: none;
+  position: fixed;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 3px solid #2e8b57;
+  padding: 25px;
+  z-index: 999;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.booking-form h2 {
+  color: #1e7734;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.booking-form input, .booking-form button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.booking-form button {
+  background-color: #2e8b57;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+.booking-form button:hover {
+  background-color: #218c5b;
+}
+.confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+.confetti-piece {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #2e8b57;
+  animation: fall 3s linear infinite;
+  opacity: 0.8;
+}
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+@media (max-width: 768px) {
+  .turfs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .turf-card {
+    max-width: 90%;
+  }
+}

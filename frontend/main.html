@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GreenTurf - Book Your Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>GreenTurf - Book Your Game</header>
+  <div class="container">
+    <div class="turfs" id="turfContainer"></div>
+    <div class="nav-buttons">
+      <button onclick="prevTurfs()">⬅ Prev</button>
+      <button onclick="nextTurfs()">Next ➡</button>
+    </div>
+  </div>
+
+  <!-- Booking Form -->
+  <div class="booking-form" id="bookingForm">
+    <h2>Book Your Slot</h2>
+    <input type="text" placeholder="Your Name" id="userName">
+    <input type="datetime-local" id="bookingDateTime">
+    <button onclick="confirmBooking()">Confirm Booking</button>
+  </div>
+
+  <!-- Confetti -->
+  <div class="confetti" id="confettiContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
